@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Emoji Cryptography</h2>
+    <div>
+        <h3>Encryption</h3>
+        <input id="encryptInput" type="text" placeholder="Enter text to encrypt">
+        <button onclick="encode()">Encrypt</button>
+        <input id="encryptOutput" type="text" readonly>
+    </div>
+    <div>
+        <h3>Decryption</h3>
+        <input id="decryptInput" type="text" placeholder="Enter emojis to decrypt">
+        <button onclick="decode()">Decrypt</button>
+        <input id="decryptOutput" type="text" readonly>
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p>
+            Developer's Note: This website's functionality is not yet complete. 
+            The integration with emojis is currently facing some issues, likely related to UTF encoding. 
+            This page is more of a proof of concept at this stage.
+        </p>
+        <p>
+            Future improvements will include adding AES/RSA functionality. 
+            Thank you for your understanding and patience.
+        </p>
+        <p>&copy; 2024 Choo Yi Jie</p>
+    </footer>
+    <script src="crypto.js"></script>
+</body>
+</html>
